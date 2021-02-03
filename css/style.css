@@ -26,12 +26,24 @@
 
 /* Main body*/
 /* Portfolio section */
-#portfolio {
+#portfolio,
+#contact {
     color: #000;
-    margin-bottom: 40;
+    margin-bottom: 40px;
 }
 
 /* About section */
 #about {
     background-color: #1abc9c;
+}
+
+/* Contact-me section */
+.contact-me li {
+    list-style: none;
+    margin: 55px 0;
+}
+
+/* ! btn classe di Bootstrap */
+.btn {
+
 }
