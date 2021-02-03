@@ -27,7 +27,11 @@
 /* Main body*/
 /* Portfolio section */
 #portfolio {
-    color: black;
+    color: #000;
+    margin-bottom: 40;
 }
 
 /* About section */
+#about {
+    background-color: #1abc9c;
+}
