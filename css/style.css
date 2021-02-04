@@ -207,7 +207,6 @@ footer h4 {
 
 .upper-footer p {
     font-size: 20px;
-    font-weight: 600;
 }
 
 .start-bs {
@@ -219,4 +218,10 @@ footer h4 {
     background-color: #1a252f;
     padding: 25px 0 20px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .upper-footer h4 {
+        margin-top: 40px;
+    }
 }
