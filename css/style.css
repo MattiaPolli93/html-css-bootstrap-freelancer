@@ -95,7 +95,8 @@ h2 {
     margin-bottom: 80px;
 }
 
-#portfolio .line {
+#portfolio .line,
+#contact .line {
     background-color: #2c3e50;
 }
 
@@ -145,10 +146,26 @@ h2 {
 }
 
 /* Contact-me section */
-/* .contact-me li {
+#contact h2 {
+    margin-top: 50px;
+}
+
+.border-form li {
+    text-align: left;
     list-style: none;
-    margin: 55px 0;
-} */
+    border-bottom: 1px solid #edeff1;
+    margin-top: 20px;
+    padding: 25px 0;
+    font-size: 20px;
+}
+
+.form-button {
+    color: #fff;
+    background-color: #1abc9c;
+    padding: 18px 30px;
+    margin-top: 150px;
+    font-size: 20px;
+}
 
 /* Footer */
 footer {
@@ -163,4 +180,3 @@ footer {
     background-color: #1a252f;
     padding: 50px 0;
 }
-
