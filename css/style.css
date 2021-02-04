@@ -2,10 +2,40 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
 .upper-header {
+    display: inline-block;
     background-color: #2c3e50;
     color: #fff;
     padding: 25px 0;
+    font-weight: bold;
+}
+
+.upper-header h2 {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.upper-header,
+.jumbo h1 {
+    text-transform: uppercase;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    color: inherit;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;    
 }
 
 /* Navbar properties (fixed when scrolling) */
@@ -21,10 +51,35 @@ body {
 /* Jumbotron */
 .jumbo {
     padding: 40px 0;
+    margin: 80px 0 auto;
 }
 
-.jumbo-content {
-    margin: 80px 0 auto;
+.jumbo img {
+    width: 240px;
+}
+
+.divide-box {
+    margin: 5px 0 15px;
+}
+
+.line {
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+
+.star {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jumbo p {
+    font-size: 20px;
 }
 
 /* Main body*/
@@ -67,3 +122,4 @@ footer {
     background-color: #1a252f;
     padding: 50px 0;
 }
+
