@@ -126,7 +126,7 @@ h2 {
 }
 
 /* :hover Portfolio section*/
-.box-portfolio-image div {
+.overlay {
     position: absolute;    
     top: 50%;
     left: 50%;
@@ -139,12 +139,13 @@ h2 {
     transition: 1s;
 }
 
-.box-portfolio-image:hover div {
+.box-portfolio-image:hover .overlay {
     border-radius: 10px;
     background-color: #1fbb9c99;
     height: 100%;
     width: 100%;
     visibility: visible;
+    cursor: pointer;
 }
 
 .box-portfolio-image i {
