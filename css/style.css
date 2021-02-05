@@ -192,32 +192,20 @@ h2 {
     margin-top: 50px;
 }
 
-.border-form li {
-    text-align: left;
-    list-style: none;
-    border-bottom: 1px solid #edeff1;
-    margin-top: 20px;
-    padding: 25px 0 35px;
-    font-size: 20px;
+form input,
+form textarea {
+    padding: 30px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #dbdddf;
 }
 
 .form-button {
-    position: relative;
-    color: #fff;
     background-color: #1abc9c;
-    padding: 18px 30px;
-    margin-top: 150px;
-    font-size: 20px;
-}
-
-.form-button:before {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    height: 2px;
-    background-color: #edeff1;
-    content: "";
-    width: 810px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -225,11 +213,10 @@ footer {
     color: #fff;
 }
 
-footer h4 {
+footer h3 {
     text-transform: uppercase;
-    font-size: 25px;
     font-weight: bold;
-    margin: 0px 0 25px;
+    margin: 0px 0 30px;
 }
 
 /* Footer columns */
@@ -245,7 +232,7 @@ footer h4 {
 .upper-footer li {
     display: inline-block;
     list-style: none;
-    padding: 12px 12px;
+    padding: 12px;
     border-radius: 100%;
     border: 2px solid #fff;
     margin: 0 5px;
@@ -256,6 +243,13 @@ footer h4 {
     font-size: 20px;
     height: 20px;
     width: 20px;
+}
+
+.upper-footer li:hover,
+.upper-footer li i:hover {
+    color: #2c3e50;
+    background-color: #fff;
+    opacity: 0.9;
 }
 
 .upper-footer p {
@@ -275,16 +269,16 @@ footer h4 {
 
 /* Responsive - Smartphones*/
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+
     .upper-header {
         padding-bottom: 80px;
     }
 
     header h2 {
         padding-left: 25px;
-    }
-
-    .form-button:before {
-        width: 440px;
     }
 
     .upper-footer {

@@ -25,9 +25,9 @@
 
                     <div class="col-xs-6 text-right">
                         <ul class="menu">
-                            <li><a href="#"><span>Portfolio</span></a></li>
-                            <li><a href="#"><span>About</span></a></li>
-                            <li><a href="#"><span>Contact</span></a></li>
+                            <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                            <li><a href="#about"><span>About</span></a></li>
+                            <li><a href="#contact"><span>Contact</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -180,16 +180,26 @@
                     </div>
 
                     <!-- "Form" -->
-                    <div class="col-xs-12 col-md-11 text-center">
-                        <ul class="border-form">
-                            <li>Name</li>
-                            <li>Email Address</li>
-                            <li>Phone Number</li>
-                            <li>Message</li>
-                        </ul>
-                        <div class="col-xs-4 col-md-3">
-                            <button type="button" name="button" class="btn form-button">Send</button>
-                        </div>                      
+                    <div class="col-xs-12 col-md-11">
+                        <form>
+                            <div class="form-group">
+                                <label class="sr-only" for="name">Name</label>
+                                <input id="name" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="email">Email</label>
+                                <input id="email" type="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="phone">Phone</label>
+                                <input id="phone" type="tel" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="message">Message</label>
+                                <textarea id="message" rows="6" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="form-button">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -203,22 +213,22 @@
                 <div class="row">
                     <!-- Footer columns -->
                     <div class="col-xs-12 col-sm-4">
-                        <h4>Location</h4>
+                        <h3>Location</h3>
                         <p>2215 John Daniel Drive <br> Clark, MO 65243</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-4">
-                        <h4>Around the web</h4>
+                        <h3>Around the web</h3>
                         <ul>
                             <li><i class="fab fa-facebook-f"></i></li>
                             <li><i class="fab fa-twitter"></i></li>
                             <li><i class="fab fa-linkedin-in"></i></li>
-                            <li><i class="fas fa-basketball-ball"></i></li>
+                            <li><i class="fab fa-dribbble"></i></li>
                         </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-4">
-                        <h4>About freelancer</h4>
+                        <h3>About freelancer</h3>
                         <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span class="start-bs">Start Bootstrap</span>.</p>
                     </div>
                 </div>
