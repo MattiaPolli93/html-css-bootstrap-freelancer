@@ -12,6 +12,7 @@ h2 {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0;
 }
 
 .upper-header {
@@ -30,6 +31,10 @@ h2 {
 .upper-header,
 .jumbo h1 {
     text-transform: uppercase;
+}
+
+.menu a>span:hover {
+    color: #1abc9c;
 }
 
 .menu li {
@@ -106,14 +111,46 @@ h2 {
 }
 
 .box-portfolio-image {
-    padding: 0 10px 15px;
+    position: relative;
+    height: 100%;
+    margin: 5px 0 20px;
 }
 
 .box-portfolio-image img {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
     border-radius: 10px;
+}
+
+.box-portfolio-image div {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+/* :hover Portfolio section*/
+.box-portfolio-image:hover img {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.box-portfolio-image:hover div {
+    border-radius: 10px;
+    background-color: #1fbb9c99;
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+}
+
+.box-portfolio-image i {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* About section */
@@ -220,7 +257,7 @@ footer h4 {
     font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .upper-footer h4 {
         margin-top: 40px;
     }
